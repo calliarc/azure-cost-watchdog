@@ -2,9 +2,10 @@
 
 Azure Function that posts daily cost changes and anomalies to Slack or Microsoft Teams.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/calliarc/azure-cost-watchdog/actions/workflows/ci.yml/badge.svg)](https://github.com/calliarc/azure-cost-watchdog/actions/workflows/ci.yml)
-![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0-brightgreen)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/calliarc/azure-cost-watchdog?include_prereleases&sort=semver)](https://github.com/calliarc/azure-cost-watchdog/releases)
+[![Built by CalliArc](https://img.shields.io/badge/built%20by-CalliArc-0a66c2)](https://www.calliarc.com/)
 
 > **Status:** v0.1.0, the first working release. Feedback and issues are welcome.
 
@@ -131,6 +132,10 @@ Have an idea? [Open an issue](https://github.com/calliarc/azure-cost-watchdog/is
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
