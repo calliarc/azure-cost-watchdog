@@ -1,0 +1,19 @@
+[project]
+name = "azure-cost-watchdog"
+version = "0.1.0"
+description = "Azure Function that posts daily cost changes and anomalies to Slack or Microsoft Teams."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = [".python_packages"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]

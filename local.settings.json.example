@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "WATCHDOG_SCHEDULE": "0 0 7 * * *",
+    "COST_SUBSCRIPTION_IDS": "00000000-0000-0000-0000-000000000000",
+    "SLACK_WEBHOOK_URL": "",
+    "TEAMS_WEBHOOK_URL": "",
+    "NOTIFY_MODE": "always",
+    "ANOMALY_THRESHOLD_PERCENT": "25",
+    "ANOMALY_THRESHOLD_ABSOLUTE": "10",
+    "ROLLING_WINDOW_DAYS": "7",
+    "ALERT_ON_DECREASE": "false",
+    "REPORT_OFFSET_DAYS": "1",
+    "TOP_N": "5",
+    "COST_TYPE": "ActualCost",
+    "DRY_RUN": "true"
+  }
+}
